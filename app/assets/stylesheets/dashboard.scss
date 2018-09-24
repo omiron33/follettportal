@@ -1,0 +1,47 @@
+// Place all the styles related to the Dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#Menu {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: #01328D;
+    align-items: center;
+}
+
+.nav_item {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+body {
+    background-color: #575452;
+}
+
+.Wrapper {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.Table {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(2, 40vh);
+    grid-gap: 15px;
+    align-items: center;
+}
+
+.Card {
+    background-color: #fafafa;
+    color: black;
+    text-align: center;
+    height: 40vh;
+    -webkit-box-shadow: 7px 9px 25px -5px rgba(171,159,237,1);
+    -moz-box-shadow: 7px 9px 25px -5px rgba(171,159,237,1);
+    box-shadow: 7px 9px 25px -5px rgba(171,159,237,1);
+}
