@@ -7,11 +7,11 @@
 
     <%= render partial: 'shared/no_store' %>
     <div class="Table">
-        <div class="Card">A</div>
-        <div class="Card">A</div>
-        <div class="Card">A</div>
-        <div class="Card">A</div>
-        <div class="Card">A</div>
+        <div class="Card" id="chart_div"><h3>Category of Event</h3><%= pie_chart Event.group(:category).count %></div>
+        <div class="Card"><h3>Average cost of category</h3><%= bar_chart Event.group(:category).average(:cost) %></div>
+        <div class="Card"></div>
+        <div class="Card"></div>
+        <div class="Card"></div>
     </div>
 </div>
 

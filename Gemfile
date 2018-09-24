@@ -37,6 +37,10 @@ gem 'devise'
 
 gem 'cancancan', '~> 2.0'
 
+# Google Charts implementation
+
+gem 'chartkick'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

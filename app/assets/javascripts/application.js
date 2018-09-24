@@ -11,6 +11,12 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require chartkick
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+document.addEventListener("turbolinks:load", function () {
+    
+});
